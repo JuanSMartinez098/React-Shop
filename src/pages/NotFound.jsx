@@ -1,9 +1,10 @@
 import React from 'react';
+import E404 from '@icons/404.svg';
 
 const Home = () => {
     return (
         <div>
-            No encontrado, error 404.
+        <img src={E404} alt=''/>
         </div>
     );
 }
